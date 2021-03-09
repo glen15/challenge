@@ -21,18 +21,24 @@ body {
     display: flex;
   }
   
-  .dot, .square {
+  .section_dot, .section_square {
     background-color: white;
   }
   
-  .dot {
+  .section_dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     margin: 30px 13px;
+    transition: background-color 5s ease-in-out;
   }
+
+  .section_dot:hover {
+    background-color: black;
+
+}
   
-  .square {
+  .section_square {
     width: 12px;
     height: 60px;
     margin: 50px 3px;
