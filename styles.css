@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body>div {
+    height: 500px;
+    width: 500px;
+    background-color: #6BBCBE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section {
+    display: flex;
+  }
+  
+  .dot, .square {
+    background-color: white;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 30px 13px;
+  }
+  
+  .square {
+    width: 12px;
+    height: 60px;
+    margin: 50px 3px;
+  }
+  
+  
