@@ -1,0 +1,27 @@
+.screen__box__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.screen__box__btn div{
+    height: 40px;
+    width: 100px;
+    background-color:whitesmoke;
+    margin: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0,0,0)
+}
+
+.screen__box__btn div:first-child {
+    background-color: rgb(11, 12, 12);
+    color: white;
+}

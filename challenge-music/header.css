@@ -1,0 +1,9 @@
+.screen__box__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen__box__header i {
+    margin: 15px;
+}
+

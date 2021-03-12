@@ -1,0 +1,38 @@
+.screen__box__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.screen__box__list__item {
+    height: 60px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgba(245,245,245, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+    margin: 5px 0px;
+}
+.active-music {
+    background-color: rgba(245,245,245, 1);
+}
+
+.screen__box__list__pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.screen__box__list__text div{
+    margin: 5px;
+}
+.screen__box__list__subtitle {
+    color: rgba(0,0,0,0.5);
+    font-size: 12px;
+}
+
+.screen__box__list__title {
+    font-weight: bold;
+}

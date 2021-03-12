@@ -1,0 +1,30 @@
+.screen__box__music-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 30px;
+    font-size: 25px;
+}
+
+.non-active {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.screen__box__music-btn div{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 3px 5px rgba(245,245,245,0.4)
+}
+
+.screen__box__music-btn div i{
+    position: absolute;
+    left: 22px;
+}
