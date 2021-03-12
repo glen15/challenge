@@ -8,23 +8,22 @@
 @import "music-btn.css";
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  .screen {
-      width: 800px;
-      height: 800px;
-      background-color: #F4F4F5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+.screen {
+  width: 800px;
+  height: 800px;
+  background-color: #f4f4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .screen__box {
-      width: 300px;
-      height: 700px;
-      background-color: tomato;
-      border-radius: 10px;
-      margin: 20px 20px;
-  }
-
+.screen__box {
+  width: 300px;
+  height: 700px;
+  background-color: tomato;
+  border-radius: 10px;
+  margin: 20px 20px;
+}
