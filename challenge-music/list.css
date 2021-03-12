@@ -23,6 +23,12 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    position: relative;
+}
+.active-music-icon {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
 }
 
 .screen__box__list__text div{
